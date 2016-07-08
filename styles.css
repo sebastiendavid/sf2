@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto Slab';
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+}
+
+#background {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+}
+
+.score {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(-90deg, #ff0000 0%, #ff0000 22%, #d88000 25%, #e8d000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #d88000;
+}
+
+#scores {
+    margin-top: 3em;
+}
+
+#scores .line {
+    display: flex;
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+#scores .line .score,
+#scores .line .name {
+    width: 40%;
+    text-align: right;
+}
+
+#scores .line .position {
+    width: 20%;
+    text-align: left;
+}
