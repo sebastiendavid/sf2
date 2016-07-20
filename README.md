@@ -1,6 +1,6 @@
 # Join the team
 
-Our developers are the best at Street Fighter, here our high score page:
+Our developers are the best at Street Fighter, here is our high score page:
 
 https://alkemics.github.io/sf2/
 
